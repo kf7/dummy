@@ -1,3 +1,3 @@
 ## Dummy module
 
-New repository for KF7 module.
+Uses as template for new KF7 modules.
