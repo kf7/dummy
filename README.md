@@ -1,3 +1,3 @@
 ## Dummy module
 
-Uses as template for new KF7 modules.
+Using for create new KF7 modules.
