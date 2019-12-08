@@ -1,2 +1,17 @@
-application/cache/*
-application/logs/*
+# Project files
+.idea
+nbproject
+*.iml
+out
+gen
+
+# Unit tests
+.phpunit.result.cache
+modules/unittest/memory
+
+# Composer
+/vendor/*
+composer.lock
+
+# Coverage reports
+/build/*
