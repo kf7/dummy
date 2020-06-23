@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'name' => 'Dummy'
+    'name' => 'Dummy',
     'menu' => [
-        'solution.md'
+        'dummy.md' => 'Dummy - module scaffolds',
+        'examples.md' => 'Examples',
     ],
 ];
