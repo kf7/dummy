@@ -1,0 +1,35 @@
+{
+    "name": "kf7/dummy",
+    "type": "library",
+    "description": "Dummy module for Kohana framework",
+    "keywords": ["dummy", "module" "kf7", "kohana", "php"],
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/kf7/dummy",
+    "authors": [
+        {
+            "name": "Kohana team",
+            "homepage": "https://kf7.github.io/team",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/kf7/dummy",
+        "issues": "https://github.com/kf7/dummy/issues",
+        "docs": "https://kf7.github.io/modules/dummy",
+        "forum": "https://kf7.discourse.group",
+        "chat": "https://telegram.me/kf7_chat"
+    },
+    "require": {
+        "kf7/system": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kohana\\Dummy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kohana\\Dummy\\": "tests/"
+        }
+    }
+}
