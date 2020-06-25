@@ -78,7 +78,7 @@ tests/coverage*
 build/*
 
 # Don't save phpunit under version control.
-phpunit
+phpunit/
 
 #-------------------------------
 # Composer
@@ -124,3 +124,6 @@ nb-configuration.xml
 
 # Results
 /phpunit*.xml
+
+# GitHub
+.github/
