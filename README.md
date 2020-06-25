@@ -1,3 +1,3 @@
 ## Dummy module
 
-Using for create new KF7 modules.
+Using for create new modules for Kohana framework.
