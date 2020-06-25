@@ -19,6 +19,9 @@
         "forum": "https://kf7.discourse.group",
         "chat": "https://telegram.me/kf7_chat"
     },
+    "require": {
+        "php": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "Kohana\\Dummy\\": "src/"

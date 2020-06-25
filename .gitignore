@@ -75,7 +75,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 # Test Files
 #-------------------------------
 tests/coverage*
-build/
+build/*
 
 # Don't save phpunit under version control.
 phpunit/
@@ -83,7 +83,7 @@ phpunit/
 #-------------------------------
 # Composer
 #-------------------------------
-vendor/
+vendor/*
 composer.lock
 
 #-------------------------------
@@ -97,19 +97,19 @@ _modules/*
 .php-version
 
 # Jetbrains editors (PHPStorm, etc)
-.idea/
+.idea/*
 *.iml
 .phpstorm.meta.php
-.phpstorm.meta.php/
+.phpstorm.meta.php/*
 
 # Netbeans
-nbproject/
-nbbuild/
-dist/
-nbdist/
+nbproject/*
+nbbuild/*
+dist/*
+nbdist/*
 nbactions.xml
 nb-configuration.xml
-.nb-gradle/
+.nb-gradle/*
 
 # Sublime Text
 *.tmlanguage.cache
@@ -118,10 +118,9 @@ nb-configuration.xml
 *.sublime-workspace
 *.sublime-project
 .phpintel
-api/
 
 # Visual Studio Code
-.vscode/
+.vscode/*
 
 # Results
 /phpunit*.xml

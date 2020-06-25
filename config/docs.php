@@ -1,12 +1,17 @@
 <?php
 
 return [
+    // module id
     'dummy' => [
-        'name' => 'Dummy module',
-        'guide' => false,
+        // module name in user guide
+        'name' => 'Dummy',
+        // show user guide
+        'guide' => true,
+        // show API
         'api' => true,
+        // an array of page file(without extension)/name pairs
         'menu' => [
-            'usage.md' => 'Usage',
+            // 'page' => 'Markdwond page',
         ],
     ],
 ];

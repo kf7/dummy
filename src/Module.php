@@ -1,6 +1,8 @@
 <?php
 
 /**
+ * Part of module of Kohana framework.
+ *
  * @author Kohana team
  * @copyright 2020 Kohana team
  * @license BSD-3-Clause
@@ -8,14 +10,15 @@
 namespace Kohana\Dummy;
 
 use Kohana\AbstractModule;
+use function dirname;
 
 /**
- * Dummy module manager.
+ * Dummy module.
  */
 final class Module extends AbstractModule
 {
     /**
-     * @inheritdoc
+     * @inheritDoc
      */
     public function getPath(): string
     {
@@ -23,7 +26,7 @@ final class Module extends AbstractModule
     }
 
     /**
-     * @inheritdoc
+     * @inheritDoc
      */
     public function getNamespace(): string
     {
@@ -31,23 +34,15 @@ final class Module extends AbstractModule
     }
 
     /**
-     * @inheritdoc
+     * @inheritDoc
      */
     public function getId(): string
     {
-        return 'kohana';
+        return 'dummy';
     }
 
     /**
-     * @inheritdoc
-     */
-    public function getName(): string
-    {
-        return 'Kohana';
-    }
-
-    /**
-     * @inheritdoc
+     * @inheritDoc
      */
     public function getVersion(): string
     {
